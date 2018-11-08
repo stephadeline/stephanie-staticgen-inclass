@@ -1,0 +1,15 @@
+{% extends '_layouts/base.njk' %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-sm-4 left-rail">
+      {% block info %}{% endblock %}
+    </div>
+    <div class="col-sm-8">
+      {% block story %}{% endblock %}
+
+    </div>
+  </div>
+</article>
+{% endblock %}
