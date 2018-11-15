@@ -4,7 +4,11 @@
 <article class="container">
   <div class="row">
     <div class="col-sm-4 left-rail">
-      {% block info %}{% endblock %}
+     {% block info %}
+     <img src="assets/img/pirate.jpg" alt="pirate character" class="img-fluid">
+     <p class="byline">By Crit McGillicutty<br>
+     <span>Island Breeze Tribune</span></p>
+    {% endblock %}
     </div>
     <div class="col-sm-8">
       {% block story %}{% endblock %}
